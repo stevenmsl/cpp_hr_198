@@ -13,7 +13,7 @@ using namespace std;
 
 /*takeaways
   - DP
-    - recursion and memorize what has been evaluated
+    - dp[i] = max(dp[i-1], dp[i-2]+nums[i])
   - time complexity : O(n)
 */
 int Solution::rob(vector<int> &nums)
